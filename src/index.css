@@ -2,9 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: sans-serif;
-  scroll-behavior: smooth;
+}
+
+/* Carousel */
+
+#root .carousel-root {
+  max-height: 80vh;
+}
+
+#root .carousel-root .carousel {
+  height: 100%;
+}
+
+#root .thumbs-wrapper {
+  display: none;
+}
+
+#root .carousel-root .carousel .legend {
+  position: absolute;
+  height: 40px;
+}
+
+#root .carousel-root .carousel .slide div {
+  height: 80vh;
+}
+#root .carousel-root .carousel .slide div img {
+  height: 100%;
+}
+
+/* Arrow disable */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }

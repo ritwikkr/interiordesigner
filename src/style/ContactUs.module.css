@@ -1,0 +1,54 @@
+.contact {
+}
+
+.head {
+  height: 30vh;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5411ffcfe4b065f40cc78e37/1410549503016-FX7BY2QPAPQPQZPX8H5W/Trade+18_0559.jpg?format=2500w");
+  background-position: 0;
+  position: relative;
+  font-size: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.title {
+  color: white;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.inquiries {
+  /* border: 2px solid red; */
+  margin: 0 30px 0 0;
+}
+
+.inq {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-bottom: 10px;
+}
+
+.add {
+  font-weight: bold;
+  margin: 20px 0;
+}

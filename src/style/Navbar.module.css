@@ -1,23 +1,45 @@
+.header {
+  height: 90vh;
+  padding: 0 30px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/55bc7122e4b057acabaf7290/1501136512495-YV91UP7KZGVZMBYK4TDW/IMG_5699.jpg?format=2500w");
+  background-position: 0;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
-  padding: 0 30px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.6;
 }
 
 .logo {
   color: turquoise;
   font-size: 30px;
+  z-index: 1;
   cursor: pointer;
 }
 
 .ul {
   list-style: none;
   display: flex;
+  color: white;
 }
 
 .li {
+  z-index: 1;
   margin: 0 10px;
   text-transform: uppercase;
   cursor: pointer;
@@ -28,7 +50,41 @@
   color: orangered;
   font-size: 50px;
 }
+
 .link {
   text-decoration: none;
   color: unset;
+}
+
+.banner {
+  /* border: 2px solid red; */
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p {
+  z-index: 1;
+  font-size: 96px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.btn {
+  cursor: pointer;
+  z-index: 1;
+  margin: 40px auto 0;
+  width: 15vw;
+  background-color: transparent;
+  border: 2px solid gray;
+  height: 50px;
+  text-transform: uppercase;
+  color: gray;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

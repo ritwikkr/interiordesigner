@@ -1,0 +1,66 @@
+.projects {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.head {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/55bc7122e4b057acabaf7290/1443413039413-IG8Y38QBKA0TIBBRE471/IMG_0986.JPG?format=2500w");
+  height: 30vh;
+  background-size: cover;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.h1 {
+  color: white;
+  font-size: 64px;
+  z-index: 1;
+}
+
+.body {
+  padding: 20px;
+}
+
+.row {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.project {
+  /* border: 2px solid blue; */
+  margin: 0 20px;
+  text-align: left;
+  width: 500px;
+}
+
+.image {
+  height: 300px;
+  width: 100%;
+}
+
+.pic {
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 28px;
+  margin: 30px 0;
+}
