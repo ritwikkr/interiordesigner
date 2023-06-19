@@ -10,25 +10,25 @@ class SlideShow extends Component {
       <Carousel className={styles.carousel}>
         <div className={styles.div}>
           <img
-            src="https://images.squarespace-cdn.com/content/v1/55bc7122e4b057acabaf7290/1443401321201-YUK6JB52OL6EMK1CHBW1/IMG_0292.JPG?format=500w"
+            src="https://images.pexels.com/photos/1571450/pexels-photo-1571450.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="img1"
             className={styles.img}
           />
-          <p className="legend">Legend 1</p>
+          <p className="legend">Bed Room</p>
         </div>
         <div>
           <img
-            src="https://images.squarespace-cdn.com/content/v1/55bc7122e4b057acabaf7290/1443401337948-M58M2A7WT967T3Z3OGEG/IMG_0904.JPG?format=500w"
+            src="https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="img2"
           />
-          <p className="legend">Legend 2</p>
+          <p className="legend">Living Room</p>
         </div>
         <div>
           <img
-            src="https://images.squarespace-cdn.com/content/v1/55bc7122e4b057acabaf7290/1443401405280-I9F5TZPNY8WSIGHW1L59/IMG_0070.JPG?format=300w"
+            src="https://images.pexels.com/photos/3965521/pexels-photo-3965521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             alt="img3"
           />
-          <p className="legend">Legend 3</p>
+          <p className="legend">Bath Room</p>
         </div>
       </Carousel>
     );
